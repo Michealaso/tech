@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(image/Mtech.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background: linear-gradient(to top, rgb(0,0,0)100%,rgb(0,0,0)100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar__logo{
+    padding: 12px;
+    margin: 20px;
+}
+
+.logo{
+    font-size: 38px;
+    color: #1708ee;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar__menu{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__item{
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar__btn{
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #1708ee;
+    text-align: center;
+    justify-content: center;
+    height: 28px;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+}
+
+.navbar__link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar__btn:hover{
+    background-color: #ff4577;
+    transition: 0.4s ease-in-out;
+    color: #1708ee;
+}
+
+.navbar__link:hover{
+    color: #1708ee;
+    transition: 0.4s ease-in-out;
+}
+
+/* Main style */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+}
+
+.main__circle{
+    background-image: url(image/tech.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    background-color: #1708ee;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.main__welcome{
+    margin-top: 50px;
+    margin-right: 75px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0 25px -10px lavender;
+}
+
+.main__welcome h1{
+    font-size: 75px;
+    color: #ff4577;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main__welcome h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.main__welcome input{
+    margin-top: 12px;
+    font-size: 35px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #1708ee;
+    border: none;
+    border: 2px solid #1708ee;
+    border-radius: 15px;
+}
+
+.main__welcome input:hover{
+    background-color: #ff4577;
+    color: blue;
+    transition: 0.5s ease;
+}
+
+.center{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffff;
+    border: 3px solid blue;
+    margin: 50px 500px;
+    padding: 5px;
+    box-shadow: 0 0 25px 1px rgb(8, 8, 241);
+}
+
+table tr td{
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-wrap: none;
+}
+
+.cir{
+    background:url(image/Mtech.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.__main{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+}
+
+.main__content{
+    margin: 10px 45px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px -10px lightgray;
+    height: 200px;
+}
+
+.main__content p{
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+.footer{
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.footer h2{
+    padding: 20px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer h3{
+    padding: 10px;
+    font-size: 15px;
+    color: #ffff;
+}
